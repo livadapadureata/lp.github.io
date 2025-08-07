@@ -1,0 +1,91 @@
+:root {
+  --bg-color: #f5f0e6;
+  --primary-green: #2d4a2e;
+  --secondary-green: #9eb25e;
+  --accent-red: #a3442c;
+  --text-color: #2b2b2b;
+  --font-main: 'Inter', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #1a73e8; /* albastru Google */
+  text-decoration: underline; /* să fie clar link */
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #a3442c; /* roșu accent */
+  text-decoration: underline;
+  outline: none;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+header img {
+  height: 90px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: var(--primary-green);
+  margin-bottom: 0.3rem;
+}
+
+header .slogan {
+  color: var(--accent-red);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: var(--primary-green);
+  font-size: 1.1rem;
+}
+
+main h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
