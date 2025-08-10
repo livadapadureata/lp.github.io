@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Latest Posts</title>
+        <link>https://livadapadureata.com/</link>
+        <description>Blog Posts RSS Feed</description>
+        <atom:link href="https://livadapadureata.com/feed.rss" rel="self" type="application/rss+xml" />
+        <item>
+            <title>De ce nu scot buturugile din livadă</title>
+            <link>https://livadapadureata.com/2025/08/16/de-ce-nu-scot-buturugile-din-livada.html</link>
+            <pubDate>Sat, 16 Aug 2025 00:00:00 -0000</pubDate>
+            <description>Unii copaci care se uscaseră în livadă i-am tăiat, iar lemnul fructifer l-am pus la dos...</description>
+            <guid isPermaLink="false">6832c211-3c3a-1d57-a8f6-bb8aa28704d5</guid>
+        </item>
+    </channel>
+</rss>
