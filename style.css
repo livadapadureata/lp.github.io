@@ -132,6 +132,29 @@ main p {
     line-height: 1.3;
 }
 
+.image-with-caption.framed {
+  text-align: left;
+  margin: 20px auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-with-caption.framed img {
+  width: 100%;
+  height: auto;
+}
+
+.image-with-caption.framed figcaption {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 0.8em;
+  color: #555;
+  font-style: italic;
+}
+
 .post-date, time {
   display: block;
   color: #666;
@@ -141,13 +164,13 @@ main p {
 }
 
 .latest-posts ul {
-  list-style: none;       /* remove bullets */
-  padding-left: 0;        /* remove default padding */
+  list-style: none;
+  padding-left: 0;
   margin-top: 1rem;
 }
 
 .latest-posts li {
-  margin-bottom: 1.2rem; /* space between posts */
+  margin-bottom: 1.2rem;
 }
 
 .latest-posts li a {
@@ -160,7 +183,7 @@ main p {
 
 .latest-posts li a:hover {
   color: var(--accent-red);
-  text-decoration: underline; /* subtle hover effect */
+  text-decoration: underline;
 }
 
 .latest-posts li span.post-date,
