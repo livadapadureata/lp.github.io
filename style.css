@@ -7,7 +7,6 @@
   --font-main: 'Inter', 'Segoe UI', sans-serif;
 }
 
-/* Global reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,8 +39,6 @@ a:focus {
   outline: none !important;
 }
 
-
-/* Header */
 header {
   background-color: white;
   text-align: center;
@@ -117,7 +114,7 @@ main p {
 #page ul {
     list-style-type: disc;
     padding-left: 20px;
-    margin: 10px 0;
+    margin: 1em;
 }
 
 #page ul li {
