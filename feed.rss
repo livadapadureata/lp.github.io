@@ -6,6 +6,13 @@
         <description>Blog Posts RSS Feed</description>
         <atom:link href="https://orchardwilds.com/feed.rss" rel="self" type="application/rss+xml" />
         <item>
+            <title>Despre microplasticul care îl aducem în gradină</title>
+            <link>https://orchardwilds.com/2026/10/24/despre-microplastic/</link>
+            <pubDate>Sat, 24 Oct 2026 00:00:00 -0000</pubDate>
+            <description>A trebuit să pun gard nou între lotul meu și cel al vecinului...</description>
+            <guid isPermaLink="false">e832fc83-5cd4-7327-7277-dc2d9e88cb73</guid>
+        </item>
+        <item>
             <title>Habitate peste buturugi cu puieți</title>
             <link>https://orchardwilds.com/2026/02/21/habitate-peste-buturugi-cu-puieti/</link>
             <pubDate>Sat, 21 Feb 2026 00:00:00 -0000</pubDate>
